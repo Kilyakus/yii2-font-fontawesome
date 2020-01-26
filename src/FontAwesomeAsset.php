@@ -9,7 +9,7 @@ class FontAwesomeAsset extends \yii\web\AssetBundle
         $this->sourcePath = __DIR__ . '/assets/font-awesome';
     }
     public $css = [
-        'css/font-awesome.css',
+        'css/font-awesome.min.css',
     ];
     public $jsOptions = array(
         'position' => \yii\web\View::POS_HEAD
